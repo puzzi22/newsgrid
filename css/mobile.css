@@ -27,7 +27,7 @@
    grid-column: 1;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
    /* Stack Grid Items */
    #showcase .showcase-container,
    #home-articles .articles-container,
@@ -50,7 +50,11 @@
       text-align: center;
    }
 
-   .page-container > *:first-child {
+   #article .card p {
+      text-align: left;
+   }
+
+   #article card p .page-container > *:first-child {
       grid-row: 1;
    }
 
